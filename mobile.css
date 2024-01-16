@@ -1,0 +1,239 @@
+@media screen and (max-width : 600px) {
+    /* nav ber */
+    .mobileV{
+        display: flex;
+    }
+    nav{
+        display: none;
+    }
+    .mvLogo{
+        color: #131318;
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+    .logoColor2{
+        color: #FF5400;
+    font-size: 21.543px;
+    font-weight: 800;
+
+    }
+    .menuBar >a{
+     color: #131318;
+     font-size: 20px;
+    }
+
+    /* nav ber */
+    /* header */
+    header {
+        padding: 20px 0 40px 0;
+        margin: 0 5%;
+    }
+
+    .homeBanner{
+        margin-top: 20px;
+    }
+    .homeHeading {
+        font-size: 60px;
+        padding: 0 20px;
+    }
+    .homeHeading {
+        font-size: 32px;
+        padding: 0 20px;
+    }
+    .allInputsec {
+        flex-direction: column;
+        gap: 17px;
+        margin-top: 0;
+    }
+    .singleInput {
+        width: 180px;
+    }
+
+    #when {
+        width: 140px;
+    }
+
+    #SelectType {
+        width: 140px;
+    }
+    /* header */
+
+    /* Our Popular Tours */
+    .popularTours {
+        flex-direction: column;
+    }
+
+    .popularTours {
+        flex-direction: column;
+    }
+
+    .contentBox {
+        max-width: 100%;
+    }
+
+    .imgBox {
+        max-width: 100%;
+    }
+
+    /* Our Popular Tours */
+
+    /* Choose Your Destination */
+
+    .imgGallery{
+        flex-direction: column;
+    }
+
+    .box1 {
+        max-width: 100%;
+    }
+
+    .box2 {
+        max-width: 100%;
+    }
+
+    .box3 {
+        max-width: 100%;
+    }
+
+    .box4 {
+        max-width: 100%;
+    }
+
+    .box5 {
+        max-width: 100%;
+    }
+    .box5 >img{
+        transform: scaleX(1.17);
+        padding: 10px ;
+    }
+
+    .box6 {
+        max-width: 100%;
+    }
+
+    .box7 {
+        max-width: 100%;
+    }
+    /* Choose Your Destination */
+
+    /* Why Choose Us */
+
+    .heading3 {
+        font-size: 30px;
+
+    }
+
+    .carts {
+
+        flex-direction: column;
+    }
+
+    .singlecart {
+        max-width: 100%;
+    }
+    /* Why Choose Us */
+
+    /* Deal & Discounts */
+    .dealContainer {
+        gap: 10px;
+    }
+
+    .firstdeal {
+        height: 500px;
+        align-items: center;
+    }
+
+    .secondDeal {
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .thiedDeal {
+        height: 500px;
+        align-items: center;
+    }
+
+
+    .common {
+        padding: 20px 20px 30px 30px;
+        align-items: left;
+    }
+
+    .serviceSecs{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    /* Deal & Discounts */
+
+    /* A Simple Perfect Place To Get Lost */
+
+    .ppSection {
+        margin: 40px 0;
+        flex-direction: column;
+    }
+
+    .ppContent {
+        max-width: 100%;
+        gap: 15px;
+    }
+    .heading6 {
+        font-size: 27px;
+    }
+
+    .ppvideoSec{
+        max-width: 100%;
+    }
+    .reviewSec {
+        margin: 0px 0 80px 0;
+    }
+
+    .heading7 {
+
+        font-size: 30px;
+        padding: 10px 0 34px 0;
+    }
+
+    /* A Simple Perfect Place To Get Lost */
+
+
+    /*  Customers Feedback */
+    .reviews {
+        grid-template-columns: repeat(1 , 1fr);
+        padding: 0 20px;
+    }
+
+    .singleReview {
+        padding: 40px 30px;
+    }
+
+    /*  Customers Feedback */
+
+    /* Newsletter */
+
+    .newsLetter{
+        flex-direction: column;
+    }
+
+    .formSection {
+        max-width: 100%;
+       padding: 40px 30px;
+    }
+    .imgSec {
+        max-width: 100%;
+
+    }
+    .discout {
+        border-radius: 10px;
+        bottom: 50px;
+    }
+    .discoutTitle {
+        font-size: 14px;
+    }
+    .offer{
+        font-size: 18px;
+    }
+    /* Newsletter  */
+ 
+}

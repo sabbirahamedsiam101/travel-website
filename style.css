@@ -16,6 +16,9 @@ header{
 padding: 40px 0 80px 0;
 margin: 0 10%;
 }
+.mobileV{
+    display: none;
+}
 nav{
 display: flex;
 justify-content: space-between;
@@ -91,7 +94,7 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.69) 0%, rgba(19, 19, 24, 
     color: #FFF;
     text-align: center;;
     font-size: 16px;
-    width: 676px;
+    max-width: 676px;
     padding: 0 15px;
     font-weight: 400;
     line-height: 26px; 
@@ -187,106 +190,7 @@ margin-top: 20px;
     max-width: 100%;
     height: auto;
 }
-/* popularTours  end*/
-
-/* Destination start */
-/* .destinationSec{
-margin: 60px 0;
-}
-
-.imgGallery{
-    padding-top: 30px;
-    position: relative;
-}
-
-.heading3{
-    color: #131318;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-}
-.para4{
-    color: rgba(19, 19, 24, 0.70);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    width: 640px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-.sec1{
- 
- display: flex;
- gap: 20px;
-}
-.sec1l{
-    max-width:  50%;
-}
-.sec1r{
-    max-width: 50%;
-}
-.sec1l > img{
-    max-width: 100%;
-}
-.sec1r > img{
-    max-width: 100%;
-}
-
-.flexContainr{
-display: flex;
-gap: 20px;
-margin-top: 20px;
-}
-
-.item1{
-max-width: 30%;
-}
-
-.item1 >img{
-    max-width: 100%;
-}
-
-.item2{
-max-width: 42%;
-}
-
-.item2 >img{
-    max-width: 100%;
-}
-
-.item3{
-max-width: 25%;
-}
-
-.item3 >img{
-    max-width: 100%;
-}
-
-.flex2{
-display: flex;
-gap: 20px;
-margin-top: 20px;
-}
-
-.flexl{
-max-width: 40%;
-}
-
-.flexl >img{
-  max-width: 100%;
-}
-
-.flexr{
-max-width: 58%;
-}
-
-.flexr >img{
-    max-width: 100%;
-} */
-
- /* Destination end */
-
+  /* popularTours  end*/
 
  /*  Choose Your Destination start */
  .destinationSec{
@@ -305,7 +209,7 @@ max-width: 58%;
         font-size: 16px;
         font-weight: 400;
         line-height: 26px;
-        width: 640px;
+        max-width: 640px;
         padding: 0 15px;
         margin: 0 auto;
     }
