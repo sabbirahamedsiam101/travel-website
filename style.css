@@ -190,7 +190,7 @@ margin-top: 20px;
 /* popularTours  end*/
 
 /* Destination start */
-.destinationSec{
+/* .destinationSec{
 margin: 60px 0;
 }
 
@@ -283,9 +283,136 @@ max-width: 58%;
 
 .flexr >img{
     max-width: 100%;
-}
+} */
 
  /* Destination end */
+
+
+ /*  Choose Your Destination start */
+ .destinationSec{
+    margin: 60px 0;
+    }
+    
+    .heading3{
+        color: #131318;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .para4{
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        width: 640px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .imgGallery{
+        padding-top: 30px;
+        position: relative;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .singleImgbox{
+        position: relative;
+        height: 300px;
+        border-radius: 13px;
+    }
+    .singleImgbox::after{
+        position: absolute;
+        content: 'BANGLADESH';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box1{
+        position: relative;
+        max-width: 47%;
+    }
+
+    .box1>img{
+        left: 0;
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .box2{
+        max-width: 47%;
+        position: relative;
+    }
+
+    .box2>img{
+        height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .box3{
+        position: relative;
+        max-width: 30%;
+    }
+    .box3 > img{
+        height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .box4{
+        position: relative;
+        max-width: 42%;
+    }
+
+    .box4>img{
+        height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .box5{
+        position: relative;
+        max-width: 20%;
+    }
+   
+    .box5>img{
+        height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .box6{
+        position: relative;
+        max-width: 40%;
+    }
+    .box6 >img{
+        height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .box7{
+        position: relative;
+        max-width: 54%;
+    }
+    .box7>img{
+        height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+ /*  Choose Your Destination end */
 
  /* Why Choose Us sec start */
  .ourWorks{
