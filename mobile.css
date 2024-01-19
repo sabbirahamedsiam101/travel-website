@@ -237,3 +237,34 @@
     /* Newsletter  */
  
 }
+
+@media screen and (max-width: 320px){
+    .homeHeading {
+        font-size: 25px;
+        padding: 10px 20px;
+    }
+    .homeBanner {
+        gap: 10px;
+    }
+    main {
+        margin: 0 5%;
+    }
+    .box5 >img {
+        transform: scaleX(1.07);
+    }
+    .firstdeal{
+        padding: 15px;
+    }
+    .secondDeal{
+        padding: 15px;
+    }
+    .thiedDeal{
+        padding: 15px;
+    }
+    .reviews{
+        padding: 0;
+    }
+    footer{
+        padding: 0 5%
+    }
+}
